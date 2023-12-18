@@ -1,0 +1,8 @@
+{
+    "pgId":"string",
+    "roomId":"string",
+    "room-number":"string",
+    "type":"string",
+    "capacity":"number",
+    "rent":"number"
+}

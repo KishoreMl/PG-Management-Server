@@ -1,0 +1,7 @@
+{
+    "ownerId":"string",
+    "pgId":"string",
+    "pg_name":"string",
+    "type":"string",
+    "location":"string" 
+}

@@ -1,0 +1,12 @@
+{
+    "pgId":"string",
+    "roomId":"string",
+    "guestId":"string",
+    "guestname":"string",
+    "phone-number":"string",
+    "home-address":"string",
+    "office-name":"string",
+    "rent-paid":"boolean",
+    "eb-bill-paid":"boolean",
+    "eb-bill":"number"
+}
