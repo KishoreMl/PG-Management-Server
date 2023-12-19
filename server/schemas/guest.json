@@ -5,7 +5,10 @@
     "guestname":"string",
     "phone-number":"string",
     "home-address":"string",
+    "joining-date":"string",
     "office-name":"string",
+    "advance-paid":"boolean",
+    "advance-amount":"number",
     "rent-paid":"boolean",
     "eb-bill-paid":"boolean",
     "eb-bill":"number"

@@ -1,0 +1,15 @@
+{
+    "obj1":{
+        "ownerId":"ownerId1",
+        "name":"Guru"
+    },
+    "obj2":{
+        "ownerId":"ownerId2",
+        "name":"Ram"
+    },
+    "obj3":{
+        "ownerId":"ownerId3",
+        "name":"Sai"
+    }
+
+}

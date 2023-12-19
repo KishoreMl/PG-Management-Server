@@ -1,0 +1,37 @@
+{
+    "obj1":{
+        "ownerId":"ownerId1",
+        "pgId":"pgId1",
+        "pg_name":"Ramya PG",
+        "type":"Mens",
+        "location":"Perungudi" 
+    },
+    "obj2":{
+        "ownerId":"ownerId1",
+        "pgId":"pgId2",
+        "pg_name":"Ramya PG",
+        "type":"Ladies",
+        "location":"Perungudi" 
+    },
+    "obj3":{
+        "ownerId":"ownerId1",
+        "pgId":"pgId3",
+        "pg_name":"Ramya PG",
+        "type":"Mens",
+        "location":"Kandhanchavadi" 
+    },
+    "obj4":{
+        "ownerId":"ownerId2",
+        "pgId":"pgId4",
+        "pg_name":"Matha Stays",
+        "type":"Mens",
+        "location":"Perungudi" 
+    },
+    "obj5":{
+        "ownerId":"ownerId3",
+        "pgId":"pgId5",
+        "pg_name":"Sai mens PG",
+        "type":"Mens",
+        "location":"Perungudi" 
+    }
+}
