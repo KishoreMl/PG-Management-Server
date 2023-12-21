@@ -1,5 +1,5 @@
 const branchRouter = require("express").Router();
-const dbo = require("../db/conn");
+const dbo = require("../conn");
 
 //create branch record
 branchRouter.route('/branch/add').post((req, response) => {

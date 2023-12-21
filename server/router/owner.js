@@ -1,10 +1,12 @@
 const ownerRouter = require("express").Router();
-const dbo = require("../db/conn");
+const dbo = require("../conn");
 
 //create owner record
 ownerRouter.route('/owner/add').post((req, response) => {
     let db_connect = dbo.getDb("PG-management-temp");
-    db_connect.collection("owner").insertOne(owner, function (err, res) {
+    db_connect
+        .collection("owner")
+        .insertOne(owner, function (err, res) {
         if (err) throw err;
         response.json(res);
     })
@@ -31,7 +33,7 @@ ownerRouter.route('/owner/update/:roomId').post((req, response)=>{
         .collection("owner")
         .updateOne(query, newvalues, function (err, res) {
             if (err) throw err;
-            console.log("updated ticket");
+            console.log("owner details updated");
             response.json(res);
         })
 })
@@ -45,7 +47,7 @@ ownerRouter.route('/owner/:roomId').delete((req, res) => {
         .collection("owner")
         .deleteMany(query, function (err, obj) {
             if (err) throw err;
-            console.log("ticket data deleted");
+            console.log("owner data deleted");
             res.status(obj);
         })
 })

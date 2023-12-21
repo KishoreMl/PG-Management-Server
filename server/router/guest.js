@@ -1,5 +1,5 @@
 const guestRouter = require("express").Router();
-const dbo = require("../db/conn");
+const dbo = require("../conn");
 
 //create room
 guestRouter.route('/guest/add').post((req, response) => {

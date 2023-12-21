@@ -1,6 +1,6 @@
 {
     "obj1":{
-        "pgId":"pgId1",
+        "branchId":"pgId1",
         "roomId":"roomId1",
         "room-number":"101",
         "type":"AC",
@@ -8,7 +8,7 @@
         "rent":6500
     },
     "obj2":{
-        "pgId":"pgId1",
+        "branchId":"pgId1",
         "roomId":"roomId2",
         "room-number":"102",
         "type":"AC",
@@ -16,7 +16,7 @@
         "rent":6500
     },
     "obj3":{
-        "pgId":"pgId1",
+        "branchId":"pgId1",
         "roomId":"roomId3",
         "room-number":"103",
         "type":"AC",
@@ -24,7 +24,7 @@
         "rent":6500
     },
     "obj4":{
-        "pgId":"pgId1",
+        "branchId":"pgId1",
         "roomId":"roomId4",
         "room-number":"104",
         "type":"AC",
@@ -32,7 +32,7 @@
         "rent":6500
     },
     "obj5":{
-        "pgId":"pgId1",
+        "branchId":"pgId1",
         "roomId":"roomId5",
         "room-number":"105",
         "type":"AC",
@@ -40,7 +40,7 @@
         "rent":6500
     },
     "obj6":{
-        "pgId":"pgId1",
+        "branchId":"pgId1",
         "roomId":"roomId6",
         "room-number":"106",
         "type":"AC",
@@ -48,7 +48,7 @@
         "rent":6500
     },
     "obj7":{
-        "pgId":"pgId1",
+        "branchId":"pgId2",
         "roomId":"roomId7",
         "room-number":"107",
         "type":"AC",
@@ -56,7 +56,7 @@
         "rent":6500
     },
     "obj8":{
-        "pgId":"pgId1",
+        "branchId":"pgId1",
         "roomId":"roomId8",
         "room-number":"108",
         "type":"AC",
@@ -64,7 +64,7 @@
         "rent":6500
     },
     "obj9":{
-        "pgId":"pgId1",
+        "branchId":"pgId1",
         "roomId":"roomId9",
         "room-number":"109",
         "type":"AC",

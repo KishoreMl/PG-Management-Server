@@ -12,7 +12,7 @@ app.use(require("./router/branch"));
 app.use(require("./router/room"));
 app.use(require("./router/owner"));
 
-const dbo = require("./db/conn");
+const dbo = require("./conn");
 
 app.listen(port, () => {   
     dbo.connectToServer(function (err) {
