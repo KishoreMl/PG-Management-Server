@@ -32,12 +32,12 @@ roomRouter.route('/room/:roomId').get((req, res) => {
 roomRouter.route('/rooms/:branchId').get((req, res) => {
     let db_connect = dbo.getDb("PG-management-temp");
     let query = { branchId: req.params.branchId };
+    console.log(req.params.branchId);
     db_connect
         .collection("room")
         .find(query)
         .toArray(function (err, result) {
             if (err) {
-                console.log(err);
                 res.status(500).json({ error: 'Internal Server Error' });
             } else {
                 res.json(result);

@@ -1,0 +1,4 @@
+- what case do you use for db columns?
+- how to generate bearer token?
+- how to validate bearer token?
+- how to generate unique id for an object?

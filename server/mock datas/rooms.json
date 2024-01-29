@@ -1,74 +1,117 @@
 {
     "obj1":{
-        "branchId":"pgId1",
+        "branchId":"branchId1",
         "roomId":"roomId1",
-        "room-number":"101",
+        "number":"101",
         "type":"AC",
         "capacity":3,
-        "rent":6500
+        "rent":6500,
+        "guests":[
+            {"guestId":"guestId1","name":"Ashwin","rentPaid":true,"ebPaid":false},
+            {"guestId":"guestId2","name":"Akhilesh","rentPaid":true,"ebPaid":false},
+            {"guestId":"guestId3","name":"Siva","rentPaid":false,"ebPaid":false}
+        ]
     },
     "obj2":{
-        "branchId":"pgId1",
+        "branchId":"branchId1",
         "roomId":"roomId2",
-        "room-number":"102",
+        "number":"102",
         "type":"AC",
         "capacity":4,
-        "rent":6500
+        "rent":6500,
+        "guests":[
+            {"guestId":"guestId1","name":"Ashwin","rentPaid":true,"ebPaid":false},
+            {"guestId":"guestId2","name":"Akhilesh","rentPaid":true,"ebPaid":false},
+            {"guestId":"guestId3","name":"Siva","rentPaid":false,"ebPaid":false}
+        ]
     },
     "obj3":{
-        "branchId":"pgId1",
+        "branchId":"branchId1",
         "roomId":"roomId3",
-        "room-number":"103",
+        "number":"103",
         "type":"AC",
-        "capacity":3,
-        "rent":6500
+        "capacity":2,
+        "rent":6500,
+        "guests":[
+            {"guestId":"guestId1","name":"Ashwin","rentPaid":true,"ebPaid":false},
+            {"guestId":"guestId2","name":"Akhilesh","rentPaid":false,"ebPaid":false}
+        ]
     },
     "obj4":{
-        "branchId":"pgId1",
+        "branchId":"branchId1",
         "roomId":"roomId4",
-        "room-number":"104",
+        "number":"104",
         "type":"AC",
-        "capacity":3,
-        "rent":6500
+        "capacity":5,
+        "rent":6500,
+        "guests":[
+            {"guestId":"guestId1","name":"Ashwin","rentPaid":true,"ebPaid":false},
+            {"guestId":"guestId2","name":"Akhilesh","rentPaid":false,"ebPaid":false},
+            {"guestId":"guestId3","name":"Siva","rentPaid":true,"ebPaid":false}
+        ]
     },
     "obj5":{
-        "branchId":"pgId1",
+        "branchId":"branchId1",
         "roomId":"roomId5",
-        "room-number":"105",
+        "number":"105",
         "type":"AC",
-        "capacity":3,
-        "rent":6500
+        "capacity":4,
+        "rent":6500,
+        "guests":[
+            {"guestId":"guestId1","name":"Ashwin","rentPaid":false,"ebPaid":false},
+            {"guestId":"guestId2","name":"Akhilesh","rentPaid":true,"ebPaid":false},
+            {"guestId":"guestId3","name":"Siva","rentPaid":false,"ebPaid":false},
+            {"guestId":"guestId4","name":"Sanjay","rentPaid":true,"ebPaid":false}
+        ]
     },
     "obj6":{
-        "branchId":"pgId1",
+        "branchId":"branchId1",
         "roomId":"roomId6",
-        "room-number":"106",
+        "number":"106",
         "type":"AC",
         "capacity":3,
-        "rent":6500
+        "rent":6500,
+        "guests":[
+            {"guestId":"guestId1","name":"Ashwin","rentPaid":true,"ebPaid":false},
+            {"guestId":"guestId2","name":"Akhilesh","rentPaid":true,"ebPaid":false},
+            {"guestId":"guestId3","name":"Siva","rentPaid":false,"ebPaid":false}
+        ]
+        
     },
     "obj7":{
         "branchId":"pgId2",
         "roomId":"roomId7",
-        "room-number":"107",
+        "number":"107",
         "type":"AC",
         "capacity":3,
-        "rent":6500
+        "rent":6500,
+        "guests":[
+            {"guestId":"guestId4","name":"Sanjay"}
+        ]
     },
     "obj8":{
-        "branchId":"pgId1",
+        "branchId":"branchId1",
         "roomId":"roomId8",
-        "room-number":"108",
+        "number":"108",
         "type":"AC",
         "capacity":3,
-        "rent":6500
+        "rent":6500,
+        "guests":[
+            {"guestId":"guestId1","name":"Ashwin"},
+            {"guestId":"guestId2","name":"Akhilesh"}
+        ]
     },
     "obj9":{
-        "branchId":"pgId1",
+        "branchId":"branchId1",
         "roomId":"roomId9",
-        "room-number":"109",
+        "number":"109",
         "type":"AC",
         "capacity":3,
-        "rent":6500
+        "rent":6500,
+        "guests":[
+            {"guestId":"guestId1","name":"Ashwin"},
+            {"guestId":"guestId2","name":"Akhilesh"},
+            {"guestId":"guestId3","name":"Siva"}
+        ]
     }
 }

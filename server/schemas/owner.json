@@ -1,4 +1,6 @@
 {
     "ownerId":"string",
-    "name":"string"
+    "name":"string",
+    "pg_name":"string"
+
 }
